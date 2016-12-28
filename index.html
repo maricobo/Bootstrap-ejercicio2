@@ -2,12 +2,14 @@
 	<head>
 		<title>Bootstrap 2</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://use.fontawesome.com/3398183f1e.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i|Kaushan+Script|Montserrat:400,700" rel="stylesheet">
 	</head>
 <body>
 
-	<div class="container">
+<section class="container-header">
+	<div class="container"> <!-- CONTAINER es una clase de bootstrap que permite centrar el contenido dentro de un section o lo q sea-->
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
@@ -27,37 +29,97 @@
         <p><a class="btn btn-lg btn-success" href="#" role="button">tell me more</a></p>
       </div>
    </div>
+</section>
+	
 
-      <section class="container-services">
-            <h2>services</h2>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-     
-         <div class="col-md-4">
-           <figure>
-             <img src="http://lorempixel.com/200/200/" class="img-circle">
-           </figure>
-           <h3>E- Commerce</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua.</p>
-         </div>
+      <section class="container-services row">
+      		<div class="container">
+      			 <h2>services</h2>
+			     <p>Lorem ipsum dolor sit amet consectetur.</p>
+			 
+			     <div class="col-md-4 itemServices">
+			         <span class="fa fa-shopping-cart icon"> </span>
+			       <h3>E- Commerce</h3>
+			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			       tempor incididunt ut labore et dolore magna aliqua.</p>
+			     </div>
 
-         <div class="col-md-4">
-           <figure>
-             <img src="http://lorempixel.com/200/200/" class="img-circle">
-           </figure>
-           <h3>Responsive Design</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua.</p>
-         </div>
+			     <div class="col-md-4 itemServices">
+			         <span class="fa fa-laptop icon"> </span>
+			       <h3>Responsive Design</h3>
+			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			       tempor incididunt ut labore et dolore magna aliqua.</p>
+			     </div>
 
-         <div class="col-md-4">
-           <figure>
-             <img src="http://lorempixel.com/200/200/" class="img-circle">
-           </figure>
-           <h3>Web Security</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-           tempor incididunt ut labore et dolore magna aliqua.</p>
-         </div>
-      </section>
+			     <div class="col-md-4 itemServices">
+			         <span class="fa fa-lock icon"> </span>
+			       <h3>Web Security</h3>
+			       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			       tempor incididunt ut labore et dolore magna aliqua.</p>
+			     </div>
+			</div>
+		</section>
+
+      <section class="container-portfolio row">
+      		<div class="container">
+      			<h2>portfolio</h2>
+            	<p>Lorem ipsum dolor sit amet consectetur.</p>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/1.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3>Round Icons</h3>
+	            		<p>Graphic Design</p>
+	            	</div>
+	            </div>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/2.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3>Startup Framework</h3>
+	            		<p>Website Design</p>
+	            	</div>
+	            </div>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/3.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3>Treehouse</h3>
+	            		<p>Website Design</p>
+	            	</div>
+	            </div>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/4.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3> Golden</h3>
+	            		<p>Website Design</p>
+	            	</div>
+	            </div>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/5.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3>Escape</h3>
+	            		<p>Website Design</p>
+	            	</div>
+	            </div>
+
+	            <div class="col-md-4 itemPortfolio">
+	            	<figure> <img src="img/6.png"> </figure>
+	            	<div class="txtoItem">
+	            		<h3>Dreams</h3>
+	            		<p>Website Design</p>
+	            	</div>
+	            </div>
+      		</div>
+		</section>
+
+		<section class="container-about row">
+      		<div class="container">
+      			<h2>about</h2>
+            	<p>Lorem ipsum dolor sit amet consectetur.</p>
+			</div>
+		</section>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.container {
+.container-header {
 	width: 100%;
 	background-image: url('../img/header-bg.jpg');
 	background-size: 100%;
@@ -71,17 +71,63 @@
 		font-size: 12px;
 		color: #666;
 	}
-		.col-md-4 {
+		.itemServices {
 			margin: 40px 0;
-			figure {
-				img {
-					width: 20%;
-				}
-			}
 			p {
 				font-family: 'Droid Serif', serif;
 				font-size: 12px;
 				color: #666;
 			}
+			span {
+				border-radius: 50%;
+				background-color: #fed136;
+				width: 100px;
+				height: 100px;
+			}
+			.icon {
+				font-size: 50px;
+    			color: #fff;
+    			line-height: 100px;
+			}
 		}
+}
+.container-portfolio {
+	text-align: center;
+	background-color: #eeeeee;
+	padding: 150px 0 180px 0;
+		h2 {
+			text-transform: uppercase;
+			font-family:'Montserrat', sans-serif;
+			font-weight: 700;
+			font-size: 38px;
+			padding-bottom: 10px;
+		}
+		p {
+			font-family: 'Droid Serif', serif;
+			font-style: italic;
+			font-size: 16px;
+			color: #666;
+			padding-bottom: 40px;
+			}
+	.itemPortfolio {
+		figure {
+			img {
+			width: 100%;
+			}
+		}
+		.txtoItem {
+			background-color: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+			h3 {
+				font-family:'Montserrat', sans-serif;
+				font-weight: 700;
+				font-size: 18px;
+				margin: 0;
+			}	
+			p {
+				font-size: 18px;
+			}
+		}
+	}
 }
